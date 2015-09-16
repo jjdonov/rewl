@@ -1,0 +1,22 @@
+{
+  "name": "rewl",
+  "version": "1.0.0",
+  "description": "An intuitive rule engine.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjdonov/rewl.git"
+  },
+  "author": "jjdonov@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjdonov/rewl/issues"
+  },
+  "homepage": "https://github.com/jjdonov/rewl#readme"
+}
