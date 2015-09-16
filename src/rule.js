@@ -1,13 +1,13 @@
 class Rule {
 
-  constructor() {
+  constructor(id) {
     this.id = id || '';
     this.fireOn = null;
     this.conditionsAreMetBy = null;
   }
 
   when(predicate) {
-    this.conditionsAreMetBy = callBack  || () => {
+    this.conditionsAreMetBy = predicate  || () => {
       return false;
     };
     return this;

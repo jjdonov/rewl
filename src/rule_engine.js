@@ -1,12 +1,14 @@
 class RuleEngine {
-  
+
   constuctor() {
 
   }
 
   runOn(document, rules) {
-    rules.forEach((rule) => {
-      rule.runOn(document);
+    return rules.map((rule) => {
+      return rule.runOn(document);
     });
   }
 }
+
+module.exports = RuleEngine;
